@@ -430,12 +430,19 @@ footer{
     }
 
     .our-plant {
-        margin: 0;
+        margin: 0 16px;
+        width: calc(100% - 32px);
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .plant-cards {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 28.5px;
+        column-gap: 15px;
     }
 
     .our-plant h1 {
@@ -464,9 +471,9 @@ footer{
         height: 196.5px;
     }
 
-    .btn-card {
+    .plant-card .card-content .btn-card {
         margin-top: 15px;
-        font-size: 16px;
+        font-size: 14px;
         padding: 0;
     }
 
