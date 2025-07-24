@@ -375,9 +375,153 @@ footer{
 
 
 
+@media  screen and (min-width:992px) and (max-width:1199px) {
+    .banner{
+        margin: 0 70px;
+    }
+        .banner .banner-content h1 {
+        font-size: 35px;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .banner .banner-content p{
+        font-size: 18px;
+        width: 350px;
+       
+    }
+        .our-plant {
+        margin: 0 70px;
+        width: calc(100% - 140px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 70px;
+       
+    }
+        .plant-cards {
+        grid-template-columns: repeat(3, 1fr);
+        place-content: center;
+        row-gap: 28.5px;
+        column-gap: 15px;
+    }
+        .flower-plant-lover {
+       width: (100% - 140px);
+        display: flex;
+        margin: 150px 70px 0 70px;
+        align-items: center;
+        justify-content: space-between;
+       
+        gap: 50px;
+        
+    }
+       .flower-plant-lover .flower-lover-content h1{
+        font-size: 30px;
+        width: 100%;
+        
+    }
+     .flower-plant-lover .flower-lover-content ul li p{
+        font-size: 18px;
+     }
+     .badge{
+        z-index: 999;
+     }
+      .latest-deals{
+        margin: 70px 70px;
+      }
+}
+@media screen and (min-width: 768px) and (max-width:992px) {
 
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    nav{
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+    nav ul li a,
+.cart-navbar {
+    
+    font-size: 14px;
+   
+}
+  
+        .banner{
+        margin: 0 45px;
+    }
+        .banner .banner-content h1 {
+        font-size: 35px;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .banner .banner-content p{
+        font-size: 18px;
+        width: 350px;
+       
+    }
+        .our-plant {
+        margin: 0 45px;
+        width: calc(100% - 90px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 70px;
+       
+    }
+        .plant-cards {
+        grid-template-columns: repeat(2, 1fr);
+        
+        row-gap: 28.5px;
+        column-gap: 15px;
+    }
+        .flower-plant-lover {
+        width: calc(100% - 90px);
+        display: flex;
+        margin: 150px 45px 0 45px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        
+    }
+       .flower-plant-lover .flower-lover-content h1{
+        font-size: 30px;
+        width:100%;
+        
+    }
+
+     .flower-plant-lover .flower-lover-content ul li p{
+        font-size: 18px;
+        width: 100%;
+     }
+     .badge{
+        z-index: 999;
+     }
+      .latest-deals{
+        margin: 70px 45px;
+        width: calc(100%-90px);
+      }
+      body .subscription{
+        width: 100%;
+        margin: 0;
+      }
+      .subscription .input-form input{
+        width: 100%;
+      }
+      .parts .links{
+        gap: 20px;
+      }
+      footer{
+        padding: 25px;
+      }
+    
+}
 
 @media screen and (max-width: 576px) {
+    *{
+        overflow-x: hidden;
+    }
     body{
         overflow-x: hidden;
         margin: 0;
