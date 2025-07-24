@@ -77,6 +77,9 @@ nav ul li a,
 
 .our-plant {
     margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .our-plant .our-plant-header {
@@ -102,9 +105,11 @@ nav ul li a,
 }
 
 .plant-cards {
+    
     display: grid;
     grid-template-columns: repeat(4, auto);
     row-gap: 30px;
+    column-gap: 30px;
     place-items: center;
 }
 
@@ -246,6 +251,12 @@ nav ul li a,
     border-bottom: 2px solid #fff;
     color: #fff;
     padding-bottom: 2px;
+}
+.card-big-h2{
+    font-size: 40px;
+}
+.card-big-a{
+    font-size: 28px;
 }
 .subscription{
  width: 100%;
@@ -490,12 +501,13 @@ footer{
     }
 
     .flower-plant-lover .flower-lover-content ul {
-        padding-left: 20px;
-        padding-right: 10px;
+        padding-left: 15px;
+        
     }
 
     .flower-plant-lover .flower-lover-content ul li {
-        width: 100%;
+        width: 90%;
+        text-wrap: wrap;
     }
 
     .flower-plant-lover .flower-lover-content ul li p {
@@ -534,7 +546,10 @@ footer{
     .card-big-h2{
         font-size: 20px;
     }
-    .card, .big a{
+    .card a{
+        font-size: 16px;
+    }
+    .card-big-a{
         font-size: 16px;
     }
     .subscription{
