@@ -406,13 +406,12 @@ footer{
         column-gap: 15px;
     }
         .flower-plant-lover {
-       width: (100% - 140px);
+        width: (100% - 140px);
         display: flex;
         margin: 150px 70px 0 70px;
         align-items: center;
         justify-content: space-between;
-       
-        gap: 50px;
+        gap: 60px;
         
     }
        .flower-plant-lover .flower-lover-content h1{
@@ -435,6 +434,13 @@ footer{
     body{
         width: 100%;
         overflow-x: hidden;
+    }
+    main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 ;
     }
     nav{
         margin-right: 45px;
@@ -461,7 +467,7 @@ footer{
        
     }
         .our-plant {
-        margin: 0 45px;
+        margin: 30px 45px;
         width: calc(100% - 90px);
         display: flex;
         flex-direction: column;
@@ -484,6 +490,23 @@ footer{
         justify-content: space-between;
         gap: 50px;
         
+    }
+    .flower-plant-lover .badge-and-image{
+        width: 50%;
+    }
+    .flower-plant-lover .badge-and-image img{
+    width: 100%;
+    }
+    .badge{
+        height: 150px !important;
+        width: 150px !important;
+        top: -50px;
+        right: -40px;
+
+    }
+
+    .flower-plant-lover .flower-lover-content{
+        width: 50%;
     }
        .flower-plant-lover .flower-lover-content h1{
         font-size: 30px;
@@ -517,6 +540,7 @@ footer{
       }
     
 }
+
 
 @media screen and (max-width: 576px) {
     *{
@@ -644,6 +668,7 @@ footer{
 
     .flower-plant-lover .flower-lover-content p {
         font-size: 14px;
+
     }
 
     .flower-plant-lover .flower-lover-content h1 {
@@ -653,13 +678,15 @@ footer{
 
     .flower-plant-lover .flower-lover-content ul {
         padding-left: 15px;
-        
+      
     }
 
     .flower-plant-lover .flower-lover-content ul li {
-        width: 90%;
-        text-wrap: wrap;
+        list-style: disc !important;
+        width: calc(100% - 30px);
+      
     }
+
 
     .flower-plant-lover .flower-lover-content ul li p {
         text-wrap: wrap;
