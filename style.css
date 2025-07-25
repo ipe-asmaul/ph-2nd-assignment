@@ -177,7 +177,9 @@ nav ul li a,
     font-family: var(--inter);
     color: var(--color-light);
 }
-
+.flower-plant-lover .flower-lover-content ul{
+    padding-left: 20px;
+}
 .flower-plant-lover .flower-lover-content ul li {
     margin: 20px 0 20px 0;
 
@@ -655,7 +657,7 @@ footer{
         margin: 0 15px 0 15px;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
+        /* overflow: hidden; */
         gap: 20px;
     }
 
